@@ -31,7 +31,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
 
-                    <!-- Suite testng xml file to consider for test execution -->
+                    <!-- Suite testng xml file to consider for InlineDDT.LoginTest execution -->
                     <suiteXmlFiles>
                         <suiteXmlFile>TestSuites/testngSuite1.xml</suiteXmlFile>
                     </suiteXmlFiles>
@@ -54,7 +54,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
-            <scope>test</scope>
+            <scope>InlineDDT.LoginTest</scope>
         </dependency>
 
         <dependency>
